@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -18,14 +18,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CreditCard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BxO-hc-Uth" userLabel="CardView">
-                                <rect key="frame" x="20" y="79" width="353" height="220"/>
+                                <rect key="frame" x="20" y="67" width="388" height="220"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Premiumcard-2020-background" translatesAutoresizingMaskIntoConstraints="NO" id="TcG-17-bdz">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="220"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="388" height="220"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TEB_LOGO-white" translatesAutoresizingMaskIntoConstraints="NO" id="bYR-pU-cIT">
                                         <rect key="frame" x="15" y="15" width="100" height="45"/>
@@ -35,9 +35,8 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PREMIUM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9H7-mF-TEU">
-                                        <rect key="frame" x="198" y="20" width="100" height="20"/>
+                                        <rect key="frame" x="233" y="20" width="100" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="bNa-tR-QdX"/>
                                             <constraint firstAttribute="height" constant="20" id="jAe-SN-n2X"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="22"/>
@@ -46,16 +45,15 @@
                                         <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Four-Bars" translatesAutoresizingMaskIntoConstraints="NO" id="kzp-KW-Ofp">
-                                        <rect key="frame" x="308" y="20" width="30" height="30"/>
+                                        <rect key="frame" x="343" y="20" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="Uko-4J-bbF"/>
                                             <constraint firstAttribute="height" constant="30" id="ckP-4w-U6t"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="starcard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qX-O7-jHd">
-                                        <rect key="frame" x="247" y="41" width="51" height="15"/>
+                                        <rect key="frame" x="282" y="41" width="51" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="51" id="W3a-YU-T3N"/>
                                             <constraint firstAttribute="height" constant="15" id="xX5-g3-wXj"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="13"/>
@@ -78,8 +76,8 @@
                                             <constraint firstAttribute="width" constant="43" id="g8e-Gf-tri"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4000  1234  5568  7789" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATq-s3-Hac">
-                                        <rect key="frame" x="35" y="122" width="278" height="25"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4000   1234   5568   7789" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATq-s3-Hac">
+                                        <rect key="frame" x="40" y="122" width="308" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="PPR-Iz-3q1"/>
                                         </constraints>
@@ -120,7 +118,7 @@
                                         <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visa-logo" translatesAutoresizingMaskIntoConstraints="NO" id="oGu-2J-aJW">
-                                        <rect key="frame" x="258" y="175" width="80" height="30"/>
+                                        <rect key="frame" x="293" y="175" width="80" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="Wll-qz-Er9"/>
                                             <constraint firstAttribute="height" constant="30" id="h6X-QH-zFC"/>
@@ -132,7 +130,7 @@
                                     <constraint firstAttribute="trailing" secondItem="oGu-2J-aJW" secondAttribute="trailing" constant="15" id="0IC-nc-4Wf"/>
                                     <constraint firstItem="DF6-de-kaF" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="15" id="2Zs-Vg-TM8"/>
                                     <constraint firstItem="kzp-KW-Ofp" firstAttribute="leading" secondItem="9H7-mF-TEU" secondAttribute="trailing" constant="10" id="3G2-y4-qeg"/>
-                                    <constraint firstItem="ATq-s3-Hac" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="35" id="6IT-E6-RB2"/>
+                                    <constraint firstItem="ATq-s3-Hac" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="40" id="6IT-E6-RB2"/>
                                     <constraint firstAttribute="trailing" secondItem="kzp-KW-Ofp" secondAttribute="trailing" constant="15" id="BaD-kr-VCG"/>
                                     <constraint firstItem="TcG-17-bdz" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" id="E6m-gd-Rwm"/>
                                     <constraint firstItem="bYR-pU-cIT" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="15" id="FKr-Aa-wO1"/>
@@ -159,15 +157,33 @@
                                     <constraint firstItem="ATq-s3-Hac" firstAttribute="top" secondItem="1Sd-Ff-axE" secondAttribute="bottom" constant="10" id="xuE-a3-3Ga"/>
                                 </constraints>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Card Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t0X-Ij-F8y">
+                                <rect key="frame" x="20" y="347" width="388" height="45"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="0Dg-Rf-eg7"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="t0X-Ij-F8y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QCF-4F-aJX"/>
+                            <constraint firstItem="t0X-Ij-F8y" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="bottom" constant="60" id="Skp-or-ldn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BxO-hc-Uth" secondAttribute="trailing" constant="20" id="dBJ-38-IZd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t0X-Ij-F8y" secondAttribute="trailing" constant="20" id="hgs-eh-Jqy"/>
                             <constraint firstItem="BxO-hc-Uth" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="t3f-4b-28J"/>
                             <constraint firstItem="BxO-hc-Uth" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="wmm-dt-lev"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="CreditCardNumberTextField" destination="t0X-Ij-F8y" id="5eh-09-Q5t"/>
+                        <outlet property="backgroundImage" destination="TcG-17-bdz" id="GP9-of-sfR"/>
+                        <outlet property="creditCardNumber" destination="ATq-s3-Hac" id="y2w-wd-VBv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -186,6 +202,9 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
