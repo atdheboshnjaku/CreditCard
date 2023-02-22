@@ -46,16 +46,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
 }
 
-
-
-//extension String {
-//
-//    func separate(every stride: Int, with separator: Character) -> String {
-//        return String(self.enumerated().map { $0 > 0 && $0 % stride == 0 ? [separator, $1] : [$1] }.joined())
-//    }
-//
-//}
-
 extension String {
 
     func separate(every: Int, with separator: String) -> String {
