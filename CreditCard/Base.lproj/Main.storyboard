@@ -64,27 +64,58 @@
                                         <color key="shadowColor" systemColor="systemGray2Color"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.backward.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DF6-de-kaF">
-                                        <rect key="frame" x="15" y="77.666666666666657" width="20" height="35"/>
+                                        <rect key="frame" x="15" y="77.666666666666657" width="18" height="35"/>
                                         <color key="tintColor" red="0.2470588235" green="0.46274509800000002" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="fpg-IV-j7U"/>
+                                            <constraint firstAttribute="width" constant="18" id="fpg-IV-j7U"/>
                                             <constraint firstAttribute="height" constant="40" id="pPu-e0-OXe"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emv-chip" translatesAutoresizingMaskIntoConstraints="NO" id="1Sd-Ff-axE">
-                                        <rect key="frame" x="42" y="77" width="40" height="35"/>
+                                        <rect key="frame" x="40" y="77" width="43" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="47c-VP-3lB"/>
-                                            <constraint firstAttribute="width" constant="40" id="g8e-Gf-tri"/>
+                                            <constraint firstAttribute="width" constant="43" id="g8e-Gf-tri"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4577 2700 0095 4424" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATq-s3-Hac">
-                                        <rect key="frame" x="40" y="127" width="273" height="25"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4577  2700  0095  4424" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATq-s3-Hac">
+                                        <rect key="frame" x="35" y="122" width="278" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="PPR-Iz-3q1"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="CreditCard" family="Credit Card" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="CreditCard" family="Credit Card" pointSize="16.700000762939453"/>
                                         <color key="textColor" red="0.44313725490196076" green="0.55294117647058827" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VALID THRU" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0j-bs-4jl">
+                                        <rect key="frame" x="145" y="157" width="20" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="5vK-ud-tHE"/>
+                                            <constraint firstAttribute="width" constant="20" id="UjA-n2-JjJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02 / 26" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgJ-IF-3FD">
+                                        <rect key="frame" x="170" y="157" width="45" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="fxV-HL-NuM"/>
+                                            <constraint firstAttribute="width" constant="45" id="v6H-yE-Xl3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                        <color key="textColor" red="0.4431372549" green="0.55294117649999996" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MR.  ATDHE BOSHNJAKU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ba6-r8-XXh">
+                                        <rect key="frame" x="35" y="172" width="179.33333333333331" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="zUS-IA-zFu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CreditCard" family="Credit Card" pointSize="16"/>
+                                        <color key="textColor" red="0.4431372549" green="0.55294117649999996" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
@@ -93,12 +124,16 @@
                                 <constraints>
                                     <constraint firstItem="DF6-de-kaF" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="15" id="2Zs-Vg-TM8"/>
                                     <constraint firstItem="kzp-KW-Ofp" firstAttribute="leading" secondItem="9H7-mF-TEU" secondAttribute="trailing" constant="10" id="3G2-y4-qeg"/>
-                                    <constraint firstItem="ATq-s3-Hac" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="40" id="6IT-E6-RB2"/>
+                                    <constraint firstItem="ATq-s3-Hac" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="35" id="6IT-E6-RB2"/>
                                     <constraint firstAttribute="trailing" secondItem="kzp-KW-Ofp" secondAttribute="trailing" constant="15" id="BaD-kr-VCG"/>
                                     <constraint firstItem="TcG-17-bdz" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" id="E6m-gd-Rwm"/>
                                     <constraint firstItem="bYR-pU-cIT" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="15" id="FKr-Aa-wO1"/>
                                     <constraint firstItem="1Sd-Ff-axE" firstAttribute="leading" secondItem="DF6-de-kaF" secondAttribute="trailing" constant="7" id="Gvr-Pc-7fU"/>
                                     <constraint firstAttribute="height" constant="220" id="Ra7-iC-Vdp"/>
+                                    <constraint firstItem="Ba6-r8-XXh" firstAttribute="top" secondItem="i0j-bs-4jl" secondAttribute="bottom" id="THr-D5-MOf"/>
+                                    <constraint firstItem="Ba6-r8-XXh" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="35" id="Vnu-YL-i9e"/>
+                                    <constraint firstItem="kgJ-IF-3FD" firstAttribute="top" secondItem="ATq-s3-Hac" secondAttribute="bottom" constant="10" id="a10-B6-PbW"/>
+                                    <constraint firstItem="kgJ-IF-3FD" firstAttribute="leading" secondItem="i0j-bs-4jl" secondAttribute="trailing" constant="5" id="dBJ-Lv-Z2y"/>
                                     <constraint firstItem="9H7-mF-TEU" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="20" id="dLs-lT-Lsh"/>
                                     <constraint firstItem="1qX-O7-jHd" firstAttribute="top" secondItem="9H7-mF-TEU" secondAttribute="bottom" constant="1" id="dxa-ZY-gUj"/>
                                     <constraint firstAttribute="trailing" secondItem="TcG-17-bdz" secondAttribute="trailing" id="fA2-K1-0ZZ"/>
@@ -107,10 +142,12 @@
                                     <constraint firstItem="kzp-KW-Ofp" firstAttribute="leading" secondItem="1qX-O7-jHd" secondAttribute="trailing" constant="10" id="kmH-tO-3eg"/>
                                     <constraint firstItem="DF6-de-kaF" firstAttribute="top" secondItem="bYR-pU-cIT" secondAttribute="bottom" constant="15" id="obu-3V-dsi"/>
                                     <constraint firstItem="TcG-17-bdz" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" id="rAI-y5-Hza"/>
+                                    <constraint firstItem="i0j-bs-4jl" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="145" id="rHW-XE-IHU"/>
                                     <constraint firstItem="kzp-KW-Ofp" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="20" id="tMm-AJ-7NT"/>
                                     <constraint firstAttribute="trailing" secondItem="ATq-s3-Hac" secondAttribute="trailing" constant="40" id="tpq-Fi-T1p"/>
                                     <constraint firstItem="1Sd-Ff-axE" firstAttribute="top" secondItem="bYR-pU-cIT" secondAttribute="bottom" constant="17" id="wAa-Ra-8kt"/>
-                                    <constraint firstItem="ATq-s3-Hac" firstAttribute="top" secondItem="1Sd-Ff-axE" secondAttribute="bottom" constant="15" id="xuE-a3-3Ga"/>
+                                    <constraint firstItem="i0j-bs-4jl" firstAttribute="top" secondItem="ATq-s3-Hac" secondAttribute="bottom" constant="10" id="xQX-u1-ddo"/>
+                                    <constraint firstItem="ATq-s3-Hac" firstAttribute="top" secondItem="1Sd-Ff-axE" secondAttribute="bottom" constant="10" id="xuE-a3-3Ga"/>
                                 </constraints>
                             </view>
                         </subviews>
