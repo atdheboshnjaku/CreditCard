@@ -23,9 +23,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="220"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TEB_LOGO-white" translatesAutoresizingMaskIntoConstraints="NO" id="bYR-pU-cIT">
-                                        <rect key="frame" x="15" y="15" width="100" height="40"/>
+                                        <rect key="frame" x="15" y="15" width="100" height="45"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="bhr-Ov-nus"/>
+                                            <constraint firstAttribute="height" constant="45" id="bhr-Ov-nus"/>
                                             <constraint firstAttribute="width" constant="100" id="czn-4a-lHU"/>
                                         </constraints>
                                     </imageView>
@@ -58,13 +58,30 @@
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" systemColor="systemGray2Color"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.backward.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DF6-de-kaF">
+                                        <rect key="frame" x="15" y="77.666666666666657" width="20" height="35"/>
+                                        <color key="tintColor" red="0.2470588235" green="0.46274509800000002" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="fpg-IV-j7U"/>
+                                            <constraint firstAttribute="height" constant="40" id="pPu-e0-OXe"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emv-chip" translatesAutoresizingMaskIntoConstraints="NO" id="1Sd-Ff-axE">
+                                        <rect key="frame" x="42" y="77" width="40" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="47c-VP-3lB"/>
+                                            <constraint firstAttribute="width" constant="40" id="g8e-Gf-tri"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="DF6-de-kaF" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="15" id="2Zs-Vg-TM8"/>
                                     <constraint firstItem="kzp-KW-Ofp" firstAttribute="leading" secondItem="9H7-mF-TEU" secondAttribute="trailing" constant="10" id="3G2-y4-qeg"/>
                                     <constraint firstAttribute="trailing" secondItem="kzp-KW-Ofp" secondAttribute="trailing" constant="15" id="BaD-kr-VCG"/>
                                     <constraint firstItem="TcG-17-bdz" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" id="E6m-gd-Rwm"/>
                                     <constraint firstItem="bYR-pU-cIT" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="15" id="FKr-Aa-wO1"/>
+                                    <constraint firstItem="1Sd-Ff-axE" firstAttribute="leading" secondItem="DF6-de-kaF" secondAttribute="trailing" constant="7" id="Gvr-Pc-7fU"/>
                                     <constraint firstAttribute="height" constant="220" id="Ra7-iC-Vdp"/>
                                     <constraint firstItem="9H7-mF-TEU" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="20" id="dLs-lT-Lsh"/>
                                     <constraint firstItem="1qX-O7-jHd" firstAttribute="top" secondItem="9H7-mF-TEU" secondAttribute="bottom" constant="1" id="dxa-ZY-gUj"/>
@@ -72,8 +89,10 @@
                                     <constraint firstItem="bYR-pU-cIT" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="15" id="hQC-wL-u8a"/>
                                     <constraint firstAttribute="bottom" secondItem="TcG-17-bdz" secondAttribute="bottom" id="iYU-de-3TX"/>
                                     <constraint firstItem="kzp-KW-Ofp" firstAttribute="leading" secondItem="1qX-O7-jHd" secondAttribute="trailing" constant="10" id="kmH-tO-3eg"/>
+                                    <constraint firstItem="DF6-de-kaF" firstAttribute="top" secondItem="bYR-pU-cIT" secondAttribute="bottom" constant="15" id="obu-3V-dsi"/>
                                     <constraint firstItem="TcG-17-bdz" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" id="rAI-y5-Hza"/>
                                     <constraint firstItem="kzp-KW-Ofp" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="20" id="tMm-AJ-7NT"/>
+                                    <constraint firstItem="1Sd-Ff-axE" firstAttribute="top" secondItem="bYR-pU-cIT" secondAttribute="bottom" constant="17" id="wAa-Ra-8kt"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -95,6 +114,8 @@
         <image name="Four-Bars" width="199" height="220"/>
         <image name="Premiumcard-2020-background" width="184.66667175292969" height="117"/>
         <image name="TEB_LOGO-white" width="301.33334350585938" height="131"/>
+        <image name="arrowtriangle.backward.fill" catalog="system" width="128" height="113"/>
+        <image name="emv-chip" width="83" height="61.666667938232422"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
