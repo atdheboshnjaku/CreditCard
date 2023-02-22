@@ -16,20 +16,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BxO-hc-Uth">
-                                <rect key="frame" x="39" y="108" width="316" height="193"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BxO-hc-Uth" userLabel="CardView">
+                                <rect key="frame" x="20" y="79" width="353" height="220"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="creditcard.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ld0-xn-cKx">
-                                        <rect key="frame" x="8" y="0.0" width="124" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Premiumcard-2020-background" translatesAutoresizingMaskIntoConstraints="NO" id="TcG-17-bdz">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="220"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TEB_LOGO-white" translatesAutoresizingMaskIntoConstraints="NO" id="bYR-pU-cIT">
+                                        <rect key="frame" x="15" y="15" width="100" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="bhr-Ov-nus"/>
+                                            <constraint firstAttribute="width" constant="100" id="czn-4a-lHU"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="TcG-17-bdz" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" id="E6m-gd-Rwm"/>
+                                    <constraint firstItem="bYR-pU-cIT" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="15" id="FKr-Aa-wO1"/>
+                                    <constraint firstAttribute="height" constant="220" id="Ra7-iC-Vdp"/>
+                                    <constraint firstAttribute="trailing" secondItem="TcG-17-bdz" secondAttribute="trailing" id="fA2-K1-0ZZ"/>
+                                    <constraint firstItem="bYR-pU-cIT" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="15" id="hQC-wL-u8a"/>
+                                    <constraint firstAttribute="bottom" secondItem="TcG-17-bdz" secondAttribute="bottom" id="iYU-de-3TX"/>
+                                    <constraint firstItem="TcG-17-bdz" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" id="rAI-y5-Hza"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BxO-hc-Uth" secondAttribute="trailing" constant="20" id="dBJ-38-IZd"/>
+                            <constraint firstItem="BxO-hc-Uth" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="t3f-4b-28J"/>
+                            <constraint firstItem="BxO-hc-Uth" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="wmm-dt-lev"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -38,7 +57,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="creditcard.fill" catalog="system" width="128" height="88"/>
+        <image name="Premiumcard-2020-background" width="184.66667175292969" height="117"/>
+        <image name="TEB_LOGO-white" width="301.33334350585938" height="131"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
