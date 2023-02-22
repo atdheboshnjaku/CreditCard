@@ -29,16 +29,51 @@
                                             <constraint firstAttribute="width" constant="100" id="czn-4a-lHU"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PREMIUM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9H7-mF-TEU">
+                                        <rect key="frame" x="198" y="20" width="100" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="bNa-tR-QdX"/>
+                                            <constraint firstAttribute="height" constant="20" id="jAe-SN-n2X"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="22"/>
+                                        <color key="textColor" red="0.24705882352941178" green="0.46274509803921571" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Four-Bars" translatesAutoresizingMaskIntoConstraints="NO" id="kzp-KW-Ofp">
+                                        <rect key="frame" x="308" y="20" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="Uko-4J-bbF"/>
+                                            <constraint firstAttribute="height" constant="30" id="ckP-4w-U6t"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="starcard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qX-O7-jHd">
+                                        <rect key="frame" x="247" y="41" width="51" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="51" id="W3a-YU-T3N"/>
+                                            <constraint firstAttribute="height" constant="15" id="xX5-g3-wXj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="13"/>
+                                        <color key="textColor" red="0.2470588235" green="0.46274509800000002" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" systemColor="systemGray2Color"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="kzp-KW-Ofp" firstAttribute="leading" secondItem="9H7-mF-TEU" secondAttribute="trailing" constant="10" id="3G2-y4-qeg"/>
+                                    <constraint firstAttribute="trailing" secondItem="kzp-KW-Ofp" secondAttribute="trailing" constant="15" id="BaD-kr-VCG"/>
                                     <constraint firstItem="TcG-17-bdz" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" id="E6m-gd-Rwm"/>
                                     <constraint firstItem="bYR-pU-cIT" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="15" id="FKr-Aa-wO1"/>
                                     <constraint firstAttribute="height" constant="220" id="Ra7-iC-Vdp"/>
+                                    <constraint firstItem="9H7-mF-TEU" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="20" id="dLs-lT-Lsh"/>
+                                    <constraint firstItem="1qX-O7-jHd" firstAttribute="top" secondItem="9H7-mF-TEU" secondAttribute="bottom" constant="1" id="dxa-ZY-gUj"/>
                                     <constraint firstAttribute="trailing" secondItem="TcG-17-bdz" secondAttribute="trailing" id="fA2-K1-0ZZ"/>
                                     <constraint firstItem="bYR-pU-cIT" firstAttribute="leading" secondItem="BxO-hc-Uth" secondAttribute="leading" constant="15" id="hQC-wL-u8a"/>
                                     <constraint firstAttribute="bottom" secondItem="TcG-17-bdz" secondAttribute="bottom" id="iYU-de-3TX"/>
+                                    <constraint firstItem="kzp-KW-Ofp" firstAttribute="leading" secondItem="1qX-O7-jHd" secondAttribute="trailing" constant="10" id="kmH-tO-3eg"/>
                                     <constraint firstItem="TcG-17-bdz" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" id="rAI-y5-Hza"/>
+                                    <constraint firstItem="kzp-KW-Ofp" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="top" constant="20" id="tMm-AJ-7NT"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -57,10 +92,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Four-Bars" width="199" height="220"/>
         <image name="Premiumcard-2020-background" width="184.66667175292969" height="117"/>
         <image name="TEB_LOGO-white" width="301.33334350585938" height="131"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
