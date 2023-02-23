@@ -159,7 +159,8 @@
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Card Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t0X-Ij-F8y">
                                 <rect key="frame" x="20" y="347" width="388" height="45"/>
-                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="0Dg-Rf-eg7"/>
                                 </constraints>
@@ -167,27 +168,38 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aoU-4w-SQ8">
+                                <rect key="frame" x="40" y="317" width="348" height="1"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="1h6-lK-WbT"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="t0X-Ij-F8y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QCF-4F-aJX"/>
                             <constraint firstItem="t0X-Ij-F8y" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="bottom" constant="60" id="Skp-or-ldn"/>
+                            <constraint firstItem="aoU-4w-SQ8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="bZu-fm-mOg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BxO-hc-Uth" secondAttribute="trailing" constant="20" id="dBJ-38-IZd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t0X-Ij-F8y" secondAttribute="trailing" constant="20" id="hgs-eh-Jqy"/>
+                            <constraint firstItem="aoU-4w-SQ8" firstAttribute="top" secondItem="BxO-hc-Uth" secondAttribute="bottom" constant="30" id="nJs-wk-PUI"/>
                             <constraint firstItem="BxO-hc-Uth" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="t3f-4b-28J"/>
                             <constraint firstItem="BxO-hc-Uth" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="wmm-dt-lev"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aoU-4w-SQ8" secondAttribute="trailing" constant="20" id="yRT-eA-fTb"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="CreditCardNumberTextField" destination="t0X-Ij-F8y" id="5eh-09-Q5t"/>
                         <outlet property="backgroundImage" destination="TcG-17-bdz" id="GP9-of-sfR"/>
+                        <outlet property="cardView" destination="BxO-hc-Uth" id="O9J-sb-EoH"/>
                         <outlet property="creditCardNumber" destination="ATq-s3-Hac" id="y2w-wd-VBv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135.1145038167939" y="4.9295774647887329"/>
+            <point key="canvasLocation" x="134.57943925233644" y="4.5356371490280782"/>
         </scene>
     </scenes>
     <resources>
@@ -202,9 +214,6 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tertiarySystemGroupedBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

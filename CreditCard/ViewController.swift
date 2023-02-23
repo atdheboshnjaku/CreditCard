@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var creditCardNumber: UILabel!
     @IBOutlet weak var CreditCardNumberTextField: UITextField!
     @IBOutlet weak var backgroundImage: UIImageView!
-    
+    @IBOutlet weak var cardView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +22,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         CreditCardNumberTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         
-        backgroundImage.layer.cornerRadius = 10
+        cardView.layer.cornerRadius = 10
+        
+        CreditCardNumberTextField.attributedPlaceholder = NSAttributedString(string:"Enter Credit Card Number", attributes:[NSAttributedString.Key.foregroundColor: UIColor.black])
+
+        creditCardNumber.adjustsFontSizeToFitWidth = true
+        creditCardNumber.minimumScaleFactor = 0.5
         
     }
+    
+    
     
     var maxLen : Int = 16
     
